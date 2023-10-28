@@ -1,0 +1,28 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\project\\ue_learning\\plugins\\persistenteditoruiscale\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\persistenteditoruiscale\\module.persistenteditoruiscale.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\project\\ue_learning\\intermediate\\build\\win64\\x64\\ue_learningeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "e:\\project\\ue_learning\\plugins\\persistenteditoruiscale\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\persistenteditoruiscale\\definitions.persistenteditoruiscale.h",
+            "e:\\project\\ue_learning\\plugins\\persistenteditoruiscale\\intermediate\\build\\win64\\unrealeditor\\inc\\persistenteditoruiscale\\uht\\persistenteditoruiscale.init.gen.cpp",
+            "e:\\project\\ue_learning\\plugins\\persistenteditoruiscale\\intermediate\\build\\win64\\unrealeditor\\inc\\persistenteditoruiscale\\uht\\persistenteditoruiscalesettings.gen.cpp",
+            "e:\\project\\ue_learning\\plugins\\persistenteditoruiscale\\source\\persistenteditoruiscale\\persistenteditoruiscalesettings.h",
+            "e:\\app\\ue_5.3\\engine\\source\\runtime\\coreuobject\\public\\uobject\\noexporttypes.h",
+            "e:\\app\\ue_5.3\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "e:\\app\\ue_5.3\\engine\\source\\runtime\\coreuobject\\public\\serialization\\testundeclaredscriptstructobjectreferences.h",
+            "e:\\app\\ue_5.3\\engine\\source\\runtime\\core\\public\\math\\unitconversion.h",
+            "e:\\app\\ue_5.3\\engine\\source\\runtime\\core\\public\\math\\unitconversion.inl",
+            "e:\\app\\ue_5.3\\engine\\source\\runtime\\core\\public\\internationalization\\polyglottextdata.h",
+            "e:\\app\\ue_5.3\\engine\\source\\runtime\\coreuobject\\public\\assetregistry\\arfilter.h",
+            "e:\\project\\ue_learning\\plugins\\persistenteditoruiscale\\intermediate\\build\\win64\\unrealeditor\\inc\\persistenteditoruiscale\\uht\\persistenteditoruiscalesettings.generated.h",
+            "e:\\project\\ue_learning\\plugins\\persistenteditoruiscale\\source\\persistenteditoruiscale\\persistenteditoruiscale.cpp",
+            "e:\\project\\ue_learning\\plugins\\persistenteditoruiscale\\source\\persistenteditoruiscale\\persistenteditoruiscale.h",
+            "e:\\app\\ue_5.3\\engine\\source\\developer\\settings\\public\\isettingsmodule.h",
+            "e:\\project\\ue_learning\\plugins\\persistenteditoruiscale\\source\\persistenteditoruiscale\\persistenteditoruiscalesettings.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

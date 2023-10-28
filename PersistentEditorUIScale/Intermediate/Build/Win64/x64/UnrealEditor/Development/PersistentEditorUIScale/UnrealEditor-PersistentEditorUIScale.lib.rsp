@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-PersistentEditorUIScale.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\project\ue_learning\Intermediate\Build\Win64\x64\ue_learningEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"E:\project\ue_learning\Plugins\PersistentEditorUIScale\Intermediate\Build\Win64\x64\UnrealEditor\Development\PersistentEditorUIScale\Module.PersistentEditorUIScale.cpp.obj"
+"E:\project\ue_learning\Plugins\PersistentEditorUIScale\Intermediate\Build\Win64\x64\UnrealEditor\Development\PersistentEditorUIScale\Default.rc2.res"
+/OUT:"E:\project\ue_learning\Plugins\PersistentEditorUIScale\Intermediate\Build\Win64\x64\UnrealEditor\Development\PersistentEditorUIScale\UnrealEditor-PersistentEditorUIScale.lib"

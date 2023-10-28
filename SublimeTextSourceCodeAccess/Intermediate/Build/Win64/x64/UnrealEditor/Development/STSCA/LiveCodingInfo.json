@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.STSCA.cpp.obj": [
+			"SublimeTextSourceCodeAccessModule.cpp.obj",
+			"SublimeTextSourceCodeAccessor.cpp.obj"
+		]
+	}
+}

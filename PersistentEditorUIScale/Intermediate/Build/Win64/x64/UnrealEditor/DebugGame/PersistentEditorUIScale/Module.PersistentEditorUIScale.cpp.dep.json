@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\project\\ue_learning\\plugins\\persistenteditoruiscale\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\persistenteditoruiscale\\module.persistenteditoruiscale.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\project\\ue_learning\\intermediate\\build\\win64\\x64\\ue_learningeditor\\debuggame\\engine\\sharedpch.engine.nonoptimized.cpp20.h.pch",
+        "Includes": [
+            "e:\\project\\ue_learning\\plugins\\persistenteditoruiscale\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\persistenteditoruiscale\\definitions.persistenteditoruiscale.h",
+            "e:\\project\\ue_learning\\plugins\\persistenteditoruiscale\\source\\persistenteditoruiscale\\persistenteditoruiscale.cpp",
+            "e:\\project\\ue_learning\\plugins\\persistenteditoruiscale\\source\\persistenteditoruiscale\\persistenteditoruiscale.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

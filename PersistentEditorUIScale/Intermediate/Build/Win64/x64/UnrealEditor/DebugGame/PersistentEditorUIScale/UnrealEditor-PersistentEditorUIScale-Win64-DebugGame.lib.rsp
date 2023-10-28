@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-PersistentEditorUIScale-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\project\ue_learning\Intermediate\Build\Win64\x64\ue_learningEditor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.Cpp20.h.obj"
+"E:\project\ue_learning\Plugins\PersistentEditorUIScale\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\PersistentEditorUIScale\Module.PersistentEditorUIScale.cpp.obj"
+"E:\project\ue_learning\Plugins\PersistentEditorUIScale\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\PersistentEditorUIScale\Default.rc2.res"
+/OUT:"E:\project\ue_learning\Plugins\PersistentEditorUIScale\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\PersistentEditorUIScale\UnrealEditor-PersistentEditorUIScale-Win64-DebugGame.lib"

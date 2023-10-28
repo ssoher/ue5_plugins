@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PersistentEditorUIScale.cpp.obj": [
+			"PersistentEditorUIScale.init.gen.cpp.obj",
+			"PersistentEditorUIScaleSettings.gen.cpp.obj",
+			"PersistentEditorUIScale.cpp.obj",
+			"PersistentEditorUIScaleSettings.cpp.obj"
+		]
+	}
+}

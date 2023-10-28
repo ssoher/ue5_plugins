@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-SublimeTextSourceCodeAccess.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\project\ue_learning\Intermediate\Build\Win64\x64\ue_learningEditor\Development\Core\SharedPCH.Core.Cpp20.h.obj"
+"E:\project\ue_learning\Plugins\SublimeTextSourceCodeAccess\Intermediate\Build\Win64\x64\UnrealEditor\Development\STSCA\Module.STSCA.cpp.obj"
+"E:\project\ue_learning\Plugins\SublimeTextSourceCodeAccess\Intermediate\Build\Win64\x64\UnrealEditor\Development\STSCA\Default.rc2.res"
+/OUT:"E:\project\ue_learning\Plugins\SublimeTextSourceCodeAccess\Intermediate\Build\Win64\x64\UnrealEditor\Development\STSCA\UnrealEditor-SublimeTextSourceCodeAccess.lib"

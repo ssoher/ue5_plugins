@@ -1,0 +1,31 @@
+{
+	"FileVersion" : 3,
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"FriendlyName" : "Sublime Text Integration",
+	"Description" : "Allows access to c++ projects with Sublime Text",
+	"Category" : "Programming",
+	"CreatedBy" : "Sarper Şoher",
+	"CreatedByURL" : "https://www.sarpersoher.com",
+	"DocsURL" : "",
+	"MarketplaceURL" : "",
+	"SupportURL" : "",
+	"EnabledByDefault" : true,
+	"CanContainContent" : false,
+	"IsBetaVersion" : false,
+	"Installed" : false,
+	"Modules" :
+	[
+		{
+			"Name" : "SublimeTextSourceCodeAccess",
+			"Type" : "UncookedOnly",
+			"LoadingPhase" : "PreDefault",
+			"PlatformAllowList" :
+			[
+				"Mac",
+				"Linux",
+				"Win64"
+			]
+		}
+	]
+}
