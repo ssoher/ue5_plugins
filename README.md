@@ -1,5 +1,5 @@
-# ue5_plugins
-a set of plugins I've made for unreal engine 5
+A set of plugins I've made for Unreal Engine 5, any future work will be added to this repo.
+
 ## Sublime Text Source Access
 
 Discovers and uses Sublime Text as the code editor, Sublime Text can be selected directly under the Editor Settings.
