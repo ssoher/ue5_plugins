@@ -14,7 +14,7 @@ void FSublimeTextSourceCodeAccessor::RefreshAvailability() {
 		FWindowsPlatformMisc::QueryRegKey(HKEY_LOCAL_MACHINE, TEXT("SOFTWARE\\Classes\\Applications\\sublime_text.exe\\shell\\open\\command\\"), TEXT(""), OpenCommand);
 	}
 
-	FString PatternString(TEXT("\"(.*)\" \".*\""));
+	FString PatternString(TEXT("\"?(.*)\"? \".*\""));
 	FRegexPattern Pattern(PatternString);
 	FRegexMatcher Matcher(Pattern, OpenCommand);
 
@@ -48,6 +48,8 @@ bool FSublimeTextSourceCodeAccessor::OpenSolution() {
 
 	const FString Path = FString::Printf(TEXT("\"%s\""), *FPaths::ConvertRelativePathToFull(*FPaths::ProjectDir()));
 
+	UE_LOG(LogTemp, Warning, TEXT("OPEN SOLUTION PATH:%s"), *Path)
+
 	FPlatformProcess::CreateProc(*executablePath, *Path, true, true, false, nullptr, 0, nullptr, nullptr);
 
 	return true;
@@ -74,6 +76,8 @@ bool FSublimeTextSourceCodeAccessor::OpenSolutionAtPath(const FString& InSolutio
 	// make sure the path is wrapped in "" properly
 	CorrectSolutionPath = FString::Printf(TEXT("\"%s%s.sublime-project\""), *CorrectSolutionPath, FApp::GetProjectName());
 
+	UE_LOG(LogTemp, Warning, TEXT("OPEN SOLUTION AT PATH:%s"), *CorrectSolutionPath)
+
 	return FPlatformProcess::CreateProc(*executablePath, *CorrectSolutionPath, true, true, false, nullptr, 0, nullptr, nullptr).IsValid();
 }
 
@@ -93,6 +97,8 @@ bool FSublimeTextSourceCodeAccessor::OpenFileAtLine(const FString& FullPath, int
 	}
 
 	const FString Path = FString::Printf(TEXT("\"%s\" --line %d \"%s\""), *FPaths::ConvertRelativePathToFull(*FPaths::ProjectDir()), LineNumber, *FullPath);
+
+	UE_LOG(LogTemp, Warning, TEXT("OPEN FILE AT LINE:%s"), *Path)
 
 	FProcHandle Proc = FPlatformProcess::CreateProc(*executablePath, *Path, true, true, false, nullptr, 0, nullptr, nullptr);
 
@@ -120,6 +126,8 @@ bool FSublimeTextSourceCodeAccessor::OpenSourceFiles(const TArray<FString>& Abso
 	// trim any whitespace on our source file list
 	SourceFilesList.TrimStartInline();
 	SourceFilesList.TrimEndInline();
+
+	UE_LOG(LogTemp, Warning, TEXT("OPEN SOURCE FILES:%s"), *SourceFilesList)
 
 	FProcHandle Proc = FPlatformProcess::CreateProc(*executablePath, *SourceFilesList, true, false, false, nullptr, 0, nullptr, nullptr);
 
